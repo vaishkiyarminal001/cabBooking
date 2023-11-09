@@ -1,0 +1,64 @@
+2023-11-09T15:02:57.992+05:30  INFO 7856 --- [main] com.app.CabBookingApplication            : Starting CabBookingApplication using Java 17.0.8.1 with PID 7856 (C:\Users\asus\Desktop\cabBooking\cabBooking\target\classes started by asus in C:\Users\asus\Desktop\cabBooking\cabBooking)
+2023-11-09T15:02:57.997+05:30  INFO 7856 --- [main] com.app.CabBookingApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-11-09T15:03:00.059+05:30  INFO 7856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-09T15:03:00.247+05:30  INFO 7856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 170 ms. Found 5 JPA repository interfaces.
+2023-11-09T15:03:01.797+05:30  INFO 7856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-09T15:03:01.819+05:30  INFO 7856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-09T15:03:01.819+05:30  INFO 7856 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-09T15:03:02.003+05:30  INFO 7856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-09T15:03:02.004+05:30  INFO 7856 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3836 ms
+2023-11-09T15:03:02.305+05:30  INFO 7856 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-09T15:03:02.399+05:30  INFO 7856 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-09T15:03:02.405+05:30  INFO 7856 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-09T15:03:02.871+05:30  INFO 7856 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-09T15:03:02.915+05:30  INFO 7856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-09T15:03:03.447+05:30  INFO 7856 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@718f3088
+2023-11-09T15:03:03.450+05:30  INFO 7856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-09T15:03:05.206+05:30  INFO 7856 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-09T15:03:05.361+05:30  INFO 7856 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-09T15:03:06.194+05:30  WARN 7856 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-09T15:03:06.726+05:30  INFO 7856 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3f2bf80d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6cb5a64d, org.springframework.security.web.context.SecurityContextHolderFilter@6db84cae, org.springframework.security.web.header.HeaderWriterFilter@2524f9bf, org.springframework.web.filter.CorsFilter@729eef5f, org.springframework.security.web.authentication.logout.LogoutFilter@715ea64a, com.app.config.JwtTokenValidatorFilter@264c9994, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@17a89cb1, com.app.config.JwtTokenGeneratorFilter@46c7e6c0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32aa27a7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@517fb2c3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@701a79b, org.springframework.security.web.session.SessionManagementFilter@515a2afd, org.springframework.security.web.access.ExceptionTranslationFilter@76a86677, org.springframework.security.web.access.intercept.AuthorizationFilter@6dd50380]
+2023-11-09T15:03:07.136+05:30  WARN 7856 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-11-09T15:03:07.140+05:30  INFO 7856 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-09T15:03:07.142+05:30  INFO 7856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-09T15:03:07.159+05:30  INFO 7856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-09T15:03:07.165+05:30  INFO 7856 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-09T15:03:07.186+05:30  INFO 7856 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-09T15:03:07.230+05:30 ERROR 7856 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-11-09T15:03:24.048+05:30  INFO 14176 --- [main] com.app.CabBookingApplication            : Starting CabBookingApplication using Java 17.0.8.1 with PID 14176 (C:\Users\asus\Desktop\cabBooking\cabBooking\target\classes started by asus in C:\Users\asus\Desktop\cabBooking\cabBooking)
+2023-11-09T15:03:24.055+05:30  INFO 14176 --- [main] com.app.CabBookingApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-11-09T15:03:25.305+05:30  INFO 14176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-09T15:03:25.428+05:30  INFO 14176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 5 JPA repository interfaces.
+2023-11-09T15:03:26.184+05:30  INFO 14176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-09T15:03:26.195+05:30  INFO 14176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-09T15:03:26.196+05:30  INFO 14176 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-09T15:03:26.370+05:30  INFO 14176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-09T15:03:26.371+05:30  INFO 14176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2180 ms
+2023-11-09T15:03:26.655+05:30  INFO 14176 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-09T15:03:26.765+05:30  INFO 14176 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-09T15:03:26.771+05:30  INFO 14176 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-09T15:03:27.217+05:30  INFO 14176 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-09T15:03:27.251+05:30  INFO 14176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-09T15:03:27.681+05:30  INFO 14176 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b6fcca1
+2023-11-09T15:03:27.684+05:30  INFO 14176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-09T15:03:29.183+05:30  INFO 14176 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-09T15:03:29.291+05:30  INFO 14176 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-09T15:03:29.971+05:30  WARN 14176 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-09T15:03:30.393+05:30  INFO 14176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@47bae235, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f588bc6, org.springframework.security.web.context.SecurityContextHolderFilter@16a89351, org.springframework.security.web.header.HeaderWriterFilter@2e214d39, org.springframework.web.filter.CorsFilter@3da8a302, org.springframework.security.web.authentication.logout.LogoutFilter@17a89cb1, com.app.config.JwtTokenValidatorFilter@21b75073, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2643c33f, com.app.config.JwtTokenGeneratorFilter@318ca53a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53b60595, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65011123, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ab11e76, org.springframework.security.web.session.SessionManagementFilter@67c912d3, org.springframework.security.web.access.ExceptionTranslationFilter@69e58566, org.springframework.security.web.access.intercept.AuthorizationFilter@392af2e0]
+2023-11-09T15:03:30.806+05:30  INFO 14176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-09T15:03:30.826+05:30  INFO 14176 --- [main] com.app.CabBookingApplication            : Started CabBookingApplication in 7.596 seconds (process running for 9.08)
